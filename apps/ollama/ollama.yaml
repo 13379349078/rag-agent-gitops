@@ -1,4 +1,3 @@
-cat > apps/ollama/ollama.yaml <<'EOF'
 apiVersion: v1
 kind: Namespace
 metadata:
@@ -57,4 +56,3 @@ spec:
   - port: 11434
     targetPort: 11434
     nodePort: 32507
-EOF
